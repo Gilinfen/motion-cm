@@ -1,0 +1,21 @@
+.flipCard-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    cursor: grab;
+    min-width: 100px;
+    min-height: 100px;
+    filter: drop-shadow(2px 4px 6px rgb(127 127 127 / 30%));
+  }
+}
+
+.flipCard-slider-one {
+  position: absolute;
+  z-index: 10;
+}
+.flipCard-slider-tow {
+  position: absolute;
+  z-index: 0;
+}
