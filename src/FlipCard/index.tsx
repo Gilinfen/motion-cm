@@ -54,7 +54,7 @@ export default React.forwardRef(function FlipCard<T extends object>(
   const isZindex = (index: number) => {
     const zIndex10 = {
       display: 'block',
-      zIndex: 10,
+      zIndex: 1,
     };
     const zIndex0 = {
       display: 'block',
@@ -73,7 +73,7 @@ export default React.forwardRef(function FlipCard<T extends object>(
   const pushPost = (value: T) => {
     const bolck = {
       display: 'block',
-      zIndex: 10,
+      zIndex: 1,
     };
     const none = {
       display: 'none',
@@ -136,7 +136,7 @@ export default React.forwardRef(function FlipCard<T extends object>(
       }
       const bolck = {
         display: 'block',
-        zIndex: 10,
+        zIndex: 1,
       };
       const none = {
         display: 'none',
